@@ -1,0 +1,146 @@
+/* Pricing Section */
+.pricing {
+  text-align: center;
+}
+
+.section-subtitle {
+  margin: 1rem 0 3rem;
+  font-size: 16px;
+  color: #6c6c6c;
+}
+
+.plans {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.plan {
+  background: white;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  padding: 2rem;
+  width: 280px;
+  transition: 0.3s;
+}
+
+.plan ul {
+  list-style: none;
+  text-align: left;
+  margin: 1.5rem 0;
+}
+
+.plan ul li {
+  margin-bottom: 0.7rem;
+  font-size: 14px;
+  color: #4f5665;
+}
+
+.plan ul li::before {
+  content: "✔ ";
+  color: var(--yeşil);
+  font-weight: bold;
+}
+
+.plan .price {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 1rem 0;
+}
+
+.plan .btn {
+  background: white;
+  border: 2px solid var(--kirmizi);
+  color: var(--kirmizi);
+  padding: 0.5rem 1.5rem;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.plan .btn:hover {
+  background: var(--kirmizi);
+  color: white;
+}
+
+.plan.active {
+  border: 2px solid var(--kirmizi);
+}
+
+/* Subscribe Section */
+.subscribe-box {
+  background: white;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  padding: 2rem 3rem;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn-subscribe {
+  background: var(--kirmizi);
+  color: white;
+  border: none;
+  border-radius: 25px;
+  padding: 0.8rem 2rem;
+  cursor: pointer;
+}
+
+.btn-subscribe:hover {
+  background: #d63a3a;
+}
+
+/* Footer */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+  padding: 3rem 15%;
+  background: #f9f9f9;
+}
+
+.footer-left {
+  max-width: 300px;
+}
+
+.footer-left .logo {
+  color: var(--siyah);
+  font-size: 20px;
+  margin-bottom: 1rem;
+}
+
+.socials a {
+  margin-right: 10px;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.footer-links {
+  display: flex;
+  gap: 3rem;
+}
+
+.footer-links h4 {
+  font-size: 16px;
+  margin-bottom: 1rem;
+  color: var(--siyah);
+}
+
+.footer-links ul {
+  list-style: none;
+}
+
+.footer-links ul li {
+  margin-bottom: 0.5rem;
+}
+
+.footer-links ul li a {
+  text-decoration: none;
+  color: #4f5665;
+}
+
+.footer-links ul li a:hover {
+  color: var(--kirmizi);
+}
