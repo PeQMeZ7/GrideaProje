@@ -72,29 +72,52 @@
 }
 
 /* Subscribe Section */
+.subscribe {
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+}
+
 .subscribe-box {
   background: white;
   box-shadow: 0 4px 20px rgba(0,0,0,0.1);
-  padding: 2rem 3rem;
-  border-radius: 15px;
+  padding: 3rem 4rem;
+  border-radius: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 2rem;
+  width: 100%;
+  max-width: 1000px; /* görseldeki gibi geniş */
+}
+
+.subscribe-text h3 {
+  font-size: 24px;
+  color: var(--siyah);
+  margin-bottom: 1rem;
+}
+
+.subscribe-text p {
+  font-size: 16px;
+  color: #6c6c6c;
 }
 
 .btn-subscribe {
   background: var(--kirmizi);
   color: white;
   border: none;
-  border-radius: 25px;
-  padding: 0.8rem 2rem;
+  border-radius: 30px;
+  padding: 1rem 2.5rem;
+  font-size: 16px;
+  font-weight: 500;
   cursor: pointer;
+  transition: 0.3s;
+  white-space: nowrap;
 }
 
 .btn-subscribe:hover {
   background: #d63a3a;
 }
-
 /* Footer */
 .footer {
   display: flex;
