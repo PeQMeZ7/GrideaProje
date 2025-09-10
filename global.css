@@ -10,20 +10,23 @@
     --yeşil:rgba(47,171,115,1);
     --siyah:rgba(11,19,42,1);
 }
+body{
+    color: #4f5665;
+}
 .section{
    padding: 3rem 15% ;/*değerleri ayarla*/
 }
 .white-container{
-    padding:1.3rem 10% ;
+    padding: 1.7rem 10% ;
+    margin: 5rem;
+    background-color: rgb(203,203,203);
     box-shadow: 0 1px 10px black;
+
 }
 .section-title{
     font-size: 35px;
     color:var(--siyah);
 }
-
-
-
 
 
  /*(Global’a)
