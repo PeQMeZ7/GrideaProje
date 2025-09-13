@@ -8,31 +8,46 @@
   font-size: 16px;
   color: #6c6c6c;
 }
-
 .plans {
   display: flex;
   justify-content: center;
   gap: 2rem;
   flex-wrap: wrap;
-    padding: 3rem 2rem; /* daha fazla iç boşluk */
-  
-  min-height: 500px;  /* uzun görünüm */
+  margin-top: 3rem;
+  align-items: stretch; /* tüm kartları aynı yükseklik yap */
 }
 
 .plan {
-  background: white;
+  background: #fff;
   border: 2px solid #ddd;
   border-radius: 10px;
-  padding: 2rem;
+  padding: 2.5rem 2rem; /* biraz daha iç boşluk */
   width: 280px;
-  transition: 0.3s;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: 0.3s ease;
+}
+
+.plan img {
+  height: 120px;
+  margin: 1rem auto 1.5rem; /* üstten 1rem boşluk ekle, ortala */
+  display: block;
+}
+
+.plan h3 {
+  font-size: 20px;
+  color: var(--siyah);
+  margin-bottom: 1.2rem; /* daha ferah */
 }
 
 .plan ul {
   list-style: none;
   text-align: left;
-  margin: 1.5rem 0;
+  margin: 1.5rem 0 2.5rem; /* alttan fazladan boşluk */
+  padding: 0;
 }
+
 
 .plan ul li {
   margin-bottom: 0.7rem;
@@ -46,14 +61,19 @@
   font-weight: bold;
 }
 
+.plan .bottom {
+  margin-top: auto; /* en alta sabitle */
+  text-align: center;
+}
+
 .plan .price {
   font-size: 18px;
   font-weight: bold;
-  margin: 1rem 0;
+  margin-bottom: 1rem;
 }
 
 .plan .btn {
-  background: white;
+  background: #fff;
   border: 2px solid var(--kirmizi);
   color: var(--kirmizi);
   padding: 0.5rem 1.5rem;
@@ -64,64 +84,70 @@
 
 .plan .btn:hover {
   background: var(--kirmizi);
-  color: white;
+  color: #fff;
 }
-
 .plan.active {
   border: 2px solid var(--kirmizi);
+  box-shadow: 0 0 15px rgba(245, 56, 56, 0.3); /* hafif kırmızı parlama efekti */
 }
 
 /* Subscribe Section */
 .subscribe {
-  display: flex;
-  justify-content: center;
-  margin-top: 5rem;
+  padding: 80px 20px;
 }
 
 .subscribe-box {
-  background: white;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
-  padding: 3rem 4rem;
-  border-radius: 20px;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 50px 60px;
+  background-color: #fff; /* dış kutu beyaz */
+  border-radius: 15px;
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  gap: 2rem;
-  width: 100%;
-  max-width: 1000px; /* görseldeki gibi geniş */
+  justify-content: space-between;
+  gap: 40px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+  color: var(--siyah);
 }
 
 .subscribe-text h3 {
-  font-size: 24px;
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 10px;
   color: var(--siyah);
-  margin-bottom: 1rem;
 }
 
 .subscribe-text p {
   font-size: 16px;
-  color: #6c6c6c;
+  color: var(--gri);
 }
 
 .btn-subscribe {
-  background: var(--kirmizi);
-  color: white;
-  border: none;
-  border-radius: 30px;
-  padding: 1rem 2.5rem;
+  background-color: var(--kirmizi);
+  color: #fff;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 600;
+  padding: 15px 40px;
+  border: none;
+  border-radius: 10px;
   cursor: pointer;
-  transition: 0.3s;
+  transition: all 0.3s ease;
   white-space: nowrap;
+  box-shadow: 0px 15px 25px rgba(245, 56, 56, 0.35); /* kırmızı gölge */
 }
 
 .btn-subscribe:hover {
-  background: #d63a3a;
+  background-color: #ff6b6b;
+  box-shadow: 0px 20px 30px rgba(245, 56, 56, 0.45); /* hoverda gölgeyi büyüt */
 }
+
+
+
 /* Footer */
 .footer {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   gap: 3rem;
   padding: 3rem 15%;
   background: #f9f9f9;
@@ -146,6 +172,7 @@
 .footer-links {
   display: flex;
   gap: 3rem;
+  flex-wrap: wrap;
 }
 
 .footer-links h4 {
@@ -156,6 +183,7 @@
 
 .footer-links ul {
   list-style: none;
+  padding: 0;
 }
 
 .footer-links ul li {
@@ -165,6 +193,7 @@
 .footer-links ul li a {
   text-decoration: none;
   color: #4f5665;
+  transition: 0.3s;
 }
 
 .footer-links ul li a:hover {
