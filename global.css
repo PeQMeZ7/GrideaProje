@@ -7,14 +7,14 @@
 :root{
     --kirmizi:rgba(245,56,56,1);
     --red:rgb(253, 223, 223);
-    --yeşil:rgba(47,171,115,1);
+    --yesil:rgba(47,171,115,1);
     --siyah:rgba(11,19,42,1);
 }
 body{
     color: #4f5665;
 }
 .section{
-   padding: 3rem 15% ;/*değerleri ayarla*/
+   padding: 3rem 15% ;
 }
 .white-container{
     padding: 1.7rem 10% ;
