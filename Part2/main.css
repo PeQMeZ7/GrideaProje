@@ -57,7 +57,7 @@
 
 .plan ul li::before {
   content: "✔ ";
-  color: var(--yeşil);
+  color: var(--yesil);
   font-weight: bold;
 }
 
