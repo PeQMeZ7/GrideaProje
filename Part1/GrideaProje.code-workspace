@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../../../Desktop/2.ders-ödev"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "GrideaProje"
+	}
+}
