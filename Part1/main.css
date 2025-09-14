@@ -160,6 +160,16 @@ text-align: right;
 
 
 @media (max-width: 1024px) {
+      .header {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .nav {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
   .about,
   .function {
     flex-direction: column; 
