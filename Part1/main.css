@@ -133,7 +133,6 @@ text-align: right;
 }
 .function-content{
     flex: 1;
-    gap: 50px;
 }
 .section-title{
     margin-bottom: 1rem;
