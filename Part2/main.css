@@ -168,6 +168,7 @@
 }
 
 .socials a {
+  color: var(--kirmizi);
   margin-right: 10px;
   font-size: 18px;
   text-decoration: none;
