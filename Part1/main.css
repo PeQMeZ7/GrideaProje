@@ -14,10 +14,13 @@
 .header .logo img{
 width: 30px;
 }
-.nav a{
+.nav{
+    display: flex;
+    align-items: center;
+}
+.nav p{
     margin: 0 15px;
     text-decoration: none;
-    color: var(--siyah);
     font-weight: 500;
 }
 .sign a{
