@@ -96,19 +96,7 @@
   padding: 80px 20px;
 }
 
-.subscribe-box {
-  max-width: 1100px;
-  margin: 0 auto;
-  padding: 50px 60px;
-  background-color: #fff; /* dış kutu beyaz */
-  border-radius: 15px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 40px;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
-  color: var(--siyah);
-}
+
 
 .subscribe-text h3 {
   font-size: 28px;

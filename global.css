@@ -17,16 +17,25 @@ body{
    padding: 3rem 15% ;
 }
 .white-container{
-    padding: 1.7rem 10% ;/*max-width*/
-    margin: 5rem;
-    background-color: rgb(203,203,203);/* rengi daha beyaza yakın yap */
-    box-shadow: 0 1px 10px black;
-
+   
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 50px 60px;
+  background-color: #fff; /* dış kutu beyaz */
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+  color: var(--siyah);
+}
 }
 .section-title{
     font-size: 35px;
     color:var(--siyah);
 }
+
 
 
  /*(Global’a)
